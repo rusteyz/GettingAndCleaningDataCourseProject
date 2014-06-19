@@ -16,29 +16,29 @@ Overall Steps -
 
 More Detailed Steps -
 
-1. Set/Create the working directory and include data.table library for setnames function execution
-2. Download and Unzip the zip file specified in course project instructions
+a. Set/Create the working directory and include data.table library for setnames function execution
+b. Download and Unzip the zip file specified in course project instructions
 
 
 << Composite Data Frame creation starts for Test Data after reading Test files >>
 
-3. Activity List data frame creation from activity_labels.txt and column header name setting
-4.  Features List data frame creation from features.txt and column header name setting
-5.  Subject Test data frame creation from subject_test.txt and column header name setting
-6.  Y Test data frame creation from y_test.txt and column header name setting
-7.  X Test data frame creation from X_test.txt
-8.  Column name setting of columns on X Test Data Frame from Features List Data Frame Listing
-9.  Extract only mean and std related columns in X Test Data Frame - Total of 68 columns
-10.  Modify the column name mean(), mean()-, std(), std()- with appropriate string (Mean, Std) in column names
-11.  Concatenate the Test Data Frames into a single Test Data Frame
-12.  Merge Activity List Data Frame with Test Data Frame on the basis of AcitivityID column to form Test DataFrame with Activity Name in each row
+c. Activity List data frame creation from activity_labels.txt and column header name setting
+d.  Features List data frame creation from features.txt and column header name setting
+e.  Subject Test data frame creation from subject_test.txt and column header name setting
+f.  Y Test data frame creation from y_test.txt and column header name setting
+g.  X Test data frame creation from X_test.txt
+h.  Column name setting of columns on X Test Data Frame from Features List Data Frame Listing
+i.  Extract only mean and std related columns in X Test Data Frame - Total of 68 columns
+j.  Modify the column name mean(), mean()-, std(), std()- with appropriate string (Mean, Std) in column names
+k.  Concatenate the Test Data Frames into a single Test Data Frame
+l.  Merge Activity List Data Frame with Test Data Frame on the basis of AcitivityID column to form Test DataFrame with Activity Name in each row
 
 
 << Composite Data Frame creation starts for Train Data after reading Train files >>
 
 
-13.  Subject Train data frame creation from subject_train.txt and column header name setting
-14.  Y Train data frame creation from y_train.txt and column header name setting
+m.  Subject Train data frame creation from subject_train.txt and column header name setting
+n.  Y Train data frame creation from y_train.txt and column header name setting
 15.  X Train data frame creation from X_train.txt
 16.  Column name setting of columns on X Train Data Frame from Features List Data Frame Listing 
 17.  Extract only mean and std related columns in X Train Data Frame  - Total of 68 columns
