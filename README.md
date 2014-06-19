@@ -19,7 +19,7 @@ More Detailed Steps -
 1. Set/Create the working directory and include data.table library for setnames function execution
 2. Download and Unzip the zip file specified in course project instructions
 
-# Composite Data Frame creation starts for Test Data after reading Test files
+<< Composite Data Frame creation starts for Test Data after reading Test files >>
 
 3. Activity List data frame creation from activity_labels.txt and column header name setting
 4.  Features List data frame creation from features.txt and column header name setting
@@ -32,7 +32,7 @@ More Detailed Steps -
 11.  Concatenate the Test Data Frames into a single Test Data Frame
 12.  Merge Activity List Data Frame with Test Data Frame on the basis of AcitivityID column to form Test DataFrame with Activity Name in each row
 
-#  Composite Data Frame creation starts for Train Data after reading Train files
+<< Composite Data Frame creation starts for Train Data after reading Train files >>
 
 13.  Subject Train data frame creation from subject_train.txt and column header name setting
 14.  Y Train data frame creation from y_train.txt and column header name setting
