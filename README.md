@@ -16,6 +16,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 5. Appropriately labels the data set with descriptive variable names. 
 6. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
+Course Project Script Details - run_analysis.R
+===============================================
 
 Overall Steps which are being executed from run_analysis.R file -
 
