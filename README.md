@@ -3,7 +3,21 @@ GettingAndCleaningDataCourseProject
 
 GettingAndCleaningDataCourseProject
 
-Overall Steps -
+Course Project Requirement -
+
+Here are the data for the project: 
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+1. You should create one R script called run_analysis.R that does the following. 
+2. Merges the training and the test sets to create one data set.
+3. Extracts only the measurements on the mean and standard deviation for each measurement. 
+4. Uses descriptive activity names to name the activities in the data set
+5. Appropriately labels the data set with descriptive variable names. 
+6. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+
+Overall Steps which are being executed from run_analysis.R file -
 
 1. Concatenate columns from subject_test, y_test, X_Test files into a single data set
 2. Extract required columns (mean and std cols) from Data Set # 1 and Label column name correctly
@@ -14,7 +28,7 @@ Overall Steps -
 7. Combine the two data sets (from #3 and #6) into one
 8. Perform the summarization on data set from #7
 
-More Detailed Steps -
+More Detailed Steps in run_analysis.R -
 
 1. Set/Create the working directory and include data.table library for setnames function execution
 2. Download and Unzip the zip file specified in course project instructions
