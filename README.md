@@ -1,9 +1,8 @@
 GettingAndCleaningDataCourseProject
 ===================================
 
-GettingAndCleaningDataCourseProject
-
 Course Project Requirement -
+=============================
 
 Here are the data for the project: 
 
