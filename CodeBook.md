@@ -2,8 +2,7 @@
 Course Project CodeBook.md
 ==========================
 
-run_analysis.R file generates AggrFinalDF-TinyData.txt file which contains 180 rows of observations (rows) of for 69 column variables, 
-after combining the train and the test data sets.
+run_analysis.R file generates AggrFinalDF-TinyData.txt file which contains 180 rows of observations (rows) for 69 column variables, after combining the train and the test data sets.
 
 AggrFinalDF-TinyData.txt consists of following columns -
 
