@@ -4,7 +4,9 @@ GettingAndCleaningDataCourseProject
 Course Project Requirement -
 =============================
 
-Here are the data for the project: 
+Course Project Requirements are listed below : 
+
+Data for the project can be downloaded from following link -
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -38,7 +40,7 @@ More Detailed Steps in run_analysis.R -
 5.  Subject Test data frame creation from subject_test.txt and column header name setting
 6.  Y Test data frame creation from y_test.txt and column header name setting
 7.  X Test data frame creation from X_test.txt
-8.  Column name setting of columns on X Test Data Frame from Features List Data Frame Listing
+8.  Column name setting of columns (via setnames function) on X Test Data Frame from Features List Data Frame Listing
 9.  Extract only mean and std related columns in X Test Data Frame - Total of 68 columns
 10.  Modify the column name mean(), mean()-, std(), std()- with appropriate string (Mean, Std) in column names
 11.  Concatenate the Test Data Frames into a single Test Data Frame
@@ -46,7 +48,7 @@ More Detailed Steps in run_analysis.R -
 13.  Subject Train data frame creation from subject_train.txt and column header name setting
 14.  Y Train data frame creation from y_train.txt and column header name setting
 15.  X Train data frame creation from X_train.txt
-16.  Column name setting of columns on X Train Data Frame from Features List Data Frame Listing 
+16.  Column name setting of columns  (via setnames function) on X Train Data Frame from Features List Data Frame Listing 
 17.  Extract only mean and std related columns in X Train Data Frame  - Total of 68 columns
 18.  Modify the column name mean(), mean()-, std(), std()- with appropriate string (Mean, Std) in column names
 19.  Concatenate the Train Data Frames into a single Test Data Frame
