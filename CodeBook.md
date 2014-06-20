@@ -2,6 +2,24 @@
 Course Project CodeBook.md
 ==========================
 
+Course Project Instructions 
+----------------------------
+
+Here are the data for the project: 
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+ You should create one R script called run_analysis.R that does the following. 
+Merges the training and the test sets to create one data set.
+Extracts only the measurements on the mean and standard deviation for each measurement. 
+Uses descriptive activity names to name the activities in the data set
+Appropriately labels the data set with descriptive variable names. 
+Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+
+
+Course Project Script and Output File Details
+---------------------------------------------
+
 run_analysis.R file generates AggrFinalDF-TinyData.txt file which contains 180 rows of observations (rows) for 69 column variables, after combining the train and the test data sets.
 
 AggrFinalDF-TinyData.txt consists of following columns -
@@ -13,8 +31,7 @@ ActivityID - activity ID data for each SubjectID (person)
 Activity   - Description of activity for each SubjectID (person) corresponding to ActivityID 
 		    - for e.g. WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-Other 66 columns are listing of mean/average of the mean and standard deviation for each of the SubjectID+ActivityID+Activity combination, 
-as required for the course project.
+Other 66 columns are listing of mean/average of the mean and standard deviation columns from original Data File, for each of the SubjectID+ActivityID+Activity combination, as required for the course project.
 
 All the columns in the Final Tiny Data Test File are listed below =
 
