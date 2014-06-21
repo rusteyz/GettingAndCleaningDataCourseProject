@@ -31,7 +31,35 @@ ActivityID - activity ID data for each SubjectID (person)
 Activity   - Description of activity for each SubjectID (person) corresponding to ActivityID 
 		    - for e.g. WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-Other 66 columns are listing of mean/average of the mean and standard deviation columns from original Data File, for each of the SubjectID+ActivityID+Activity combination, as required for the course project.
+Other 66 columns in the final Tiny Data set, are columns of mean/average of the mean and standard deviation columns from original Data File, for each of the SubjectID + ActivityID + Activity combination, as required for the course project.
+
+Transformations Performed
+-------------------------
+1. Original Test and Train Data Set had 561 columns with 10229 records/rows.
+
+2. As per project instructions - Subject ID and Columns Names with having either "mean" or "std" were retained.
+   In the concatenated data set, SubjectID + ActivityID + Activity + 66 columns names (with string "mean" or "std" in their names) were retained.
+
+3. The column names were renamed from "-mean()" and "-mean()-" to "Mean" in the Data Set
+4. The column names were renamed from "-std()" and "-std()-" to "Std" in the Data Set
+5. After renaming, per course instruction, average/mean was calculated for 66 "Mean"/"Std" columns for each of the
+   SubjectID + ActivityID + Activity colum combination, thereby giving 180 rows in the final Tiny Data set
+
+
+Overall Steps Performed -
+--------------------------
+1. Concatenate columns from subject_test, y_test, X_Test files into a single data set
+2. Extract required columns (mean and std cols) from Data Set # 1 and Label column name correctly
+3. Used "Merge" function to merge Data Set from #2 with Activity Data Frame on basis of ActivityID column
+4. Concatenate columns from subject_train, y_train, X_Train files into a single data set
+5. Extract required columns (mean and std cols) from Data Set # 4 and Label column name correctly
+6. Used "Merge" function to merge Data Set from #5 with Activity Data Frame on basis of ActivityID column
+7. Combine the two data sets (from #3 and #6) into one
+8. Perform the summarization on data set from #7
+
+
+Columns in the Final Tiny Data Set Text File -
+----------------------------------------------
 
 All the columns in the Final Tiny Data Test File are listed below =
 
