@@ -38,7 +38,7 @@ Transformations Performed
 1. Original Test and Train Data Set had 561 columns with 10229 records/rows.
 
 2. As per project instructions - Subject ID and Columns Names with having either "mean" or "std" were retained.
-   In the concatenated data set, SubjectID + ActivityID + Activity + 66 columns names (with string "mean" or "std" in their names) were retained.
+   In the concatenated data set, SubjectID + ActivityID + Activity + 66 columns names (with string "mean()" or "std()" in their names) were retained.
 
 3. The column names were renamed from "-mean()" and "-mean()-" to "Mean" in the Data Set
 4. The column names were renamed from "-std()" and "-std()-" to "Std" in the Data Set
