@@ -31,7 +31,7 @@ ActivityID - activity ID data for each SubjectID (person)
 Activity   - Description of activity for each SubjectID (person) corresponding to ActivityID 
 		    - for e.g. WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-Other 66 columns in the final Tiny Data set, are columns of mean/average of the mean and standard deviation columns from original Data File, for each of the SubjectID + ActivityID + Activity combination, as required for the course project.
+Other 66 columns in the final Tiny Data set, are columns of mean/average of the mean and standard deviation columns from original Data File (having either 'mean()' or 'std()' string in the column name), for each of the SubjectID + ActivityID + Activity combination, as required for the course project.
 
 Transformations Performed
 -------------------------
