@@ -43,7 +43,7 @@ Transformations Performed
 3. The column names were renamed from "-mean()" and "-mean()-" to "Mean" in the Data Set
 4. The column names were renamed from "-std()" and "-std()-" to "Std" in the Data Set
 5. After renaming, per course instruction, average/mean was calculated for 66 "Mean"/"Std" columns for each of the
-   SubjectID + ActivityID + Activity colum combination, thereby giving 180 rows in the final Tiny Data set
+   SubjectID + ActivityID + Activity colum combination, thereby giving 180 rows (6 Activities * 30 Subjects ID) in the final Tiny Data set
 
 
 Overall Steps Performed -
